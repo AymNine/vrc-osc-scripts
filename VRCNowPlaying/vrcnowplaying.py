@@ -25,7 +25,7 @@ class NoMediaRunningException(Exception):
     pass
 
 
-config = {'DisplayFormat': "« NP: {song_artist} - {song_title}{song_position} »", 'PausedFormat': "« Playback Paused »", 'OnlyShowOnChange': False,
+config = {'DisplayFormat': "( NP: {song_artist} - {song_title}{song_position} )", 'PausedFormat': "( Playback Paused )", 'OnlyShowOnChange': False,
           'UseTextFile': False, 'TextFileLocation': "", 'TextFileUpdateAlways': False}
 
 last_displayed_song = ("","")
